@@ -19,7 +19,7 @@ license=""
 folder=$key-trojan
 if [[ "$5" -ne "" ]]
     then
-    syncInterval=$6
+    syncInterval=$5
 else
     syncInterval=60
 fi
