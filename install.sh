@@ -15,9 +15,9 @@ api=$1
 key=$2
 nodeId=$3
 localPort=$4
-license=$5
+license=""
 folder=$key-trojan
-if [[ "$6" -ne "" ]]
+if [[ "$5" -ne "" ]]
     then
     syncInterval=$6
 else
